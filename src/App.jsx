@@ -38,8 +38,8 @@ function App() {
         <div>
           <h1>Hello Login!</h1>
           <LoginInfo isLogin={isLogin} />
-          <button onClick={handleLogin}></button>
-          <button onClick={handleLogout}></button>
+          <button onClick={handleLogin}>Login</button>
+          <button onClick={handleLogout}>Logout</button>
         </div>
         <div>
           <p>My task is create a component that shows: “Click me” </p>
