@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import ClickMeButton from './components/ClickMe.jsx';
 import { LoginInfo } from './components/LoginInfo.jsx';
+import Counter from './components/Counter.jsx';
+import LoginForm from './components/LoginForm.jsx';
 
 
 
@@ -21,6 +23,8 @@ function App() {
 
   return (
     <div className="App">
+      < Counter />
+      <LoginForm />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
