@@ -21,7 +21,7 @@ function LoginForm() {
 
         return newErrors;
     };
-
+    // handleSubmit replace using useCallBack
     const handleSubmit = (e) => {
         e.preventDefault();
         const validationErrors = validate();
